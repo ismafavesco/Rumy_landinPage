@@ -46,8 +46,6 @@ export default {
           "base-content": "#f2f2f2"     // Light gray for text on gray background
         }
       },
-      "dark", // Default dark theme
-      config.theme // Your custom theme from config
     ],
   },
 };
