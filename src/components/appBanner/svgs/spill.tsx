@@ -7,8 +7,8 @@ function Spill({ className }: Props) {
     <svg className={className} viewBox="0 0 325 79">
       <defs>
         <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="ssspill-grad">
-          <stop stopColor="oklch(var(--p))" stopOpacity="1" offset="55%" />
-          <stop stopColor="oklch(var(--s))" stopOpacity="1" offset="100%" />
+        <stop stopColor="#c7f9cc" stopOpacity="1" offset="55%" /> {/* Mint Green */}
+        <stop stopColor="#26342D" stopOpacity="1" offset="100%" /> {/* Dark Green */}
         </linearGradient>
       </defs>
       <g fill="url(#ssspill-grad)">

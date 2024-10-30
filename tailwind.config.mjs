@@ -9,7 +9,7 @@ export default {
       "3xs": "350px",
       "2xs": "400px",
       xs: "475px",
-      ...defaultTheme.screens,
+      ...defaultTheme.screens, // Merge with default screens
     },
     extend: {
       fontFamily: {
@@ -33,6 +33,21 @@ export default {
   },
   plugins: [require("daisyui"), require("@tailwindcss/typography")],
   daisyui: {
-    themes: ["dark", config.theme],
+    themes: [
+      {
+        corporate: {
+          ...require("daisyui/src/theming/themes")["[data-theme=corporate]"],
+          "primary": "#c7f9cc",     // Fresh mint green
+          "secondary": "#26342D",  //  green-gray
+          "primary-content": "#1a1a1a", // Darker black for strong contrast
+          "neutral": "#26342D",         // Green dark
+          "neutral-content": "#e5f0e9", // Softer light green-gray for readability
+          "base-100": "#292929",        // Gray background
+          "base-content": "#f2f2f2"     // Light gray for text on gray background
+        }
+      },
+      "dark", // Default dark theme
+      config.theme // Your custom theme from config
+    ],
   },
 };

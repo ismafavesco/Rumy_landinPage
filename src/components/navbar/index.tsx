@@ -4,7 +4,6 @@ import clsx from "clsx";
 import { easeIn, motion, useScroll, useTransform } from "framer-motion";
 import { useContext, useState } from "react";
 import { ConfigContext } from "../../utils/configContext";
-import ThemeSwitcher from "./themeSwitcher";
 
 function Navbar() {
   const {
@@ -54,12 +53,11 @@ function Navbar() {
         />
         <div className="navbar-start">
           <a href="/" className="flex items-center">
-            <img className="h-16" src={logo} alt="logo" />
-            <span className="font-bold mx-1 md:text-lg">{name}</span>
+            <img className="h-16 md:h-20" src={logo} alt="logo" />
+            <span className="font-bold mx-1 text-base md:text-xl">{name}</span>
           </a>
         </div>
         <div className="navbar-end md:hidden">
-          {showThemeSwitch && <ThemeSwitcher />}
           <MenuToggle
             toggle={() => setIsMobileNavVisible((current) => !current)}
             isOpen={isMobileNavVisible}
@@ -67,11 +65,10 @@ function Navbar() {
         </div>
         <div className="navbar-end hidden font-semibold md:flex">
           <ul className="flex gap-4 px-1 items-center">
-            {showThemeSwitch && <ThemeSwitcher />}
             {topNavbar.links.map(({ title, href }, index) => (
               <li key={index}>
                 <a
-                  className="text-sm whitespace-nowrap link link-hover"
+                  className="text-sm md:text-base whitespace-nowrap link link-hover"
                   href={href}
                 >
                   {title}
@@ -88,13 +85,13 @@ function Navbar() {
       </motion.div>
       <AnimatedList
         listKey="mobile-navbar"
-        listClassName="absolute bg-base-100 top-20 shadow-lg rounded-b-lg w-full px-4 flex flex-col gap-2 md:hidden"
+        listClassName="absolute bg-base-100 top-20 shadow-lg rounded-b-lg w-full px-4 flex flex-col gap-4 md:hidden" // Increased gap for open menu
         isVisible={isMobileNavVisible}
       >
         {topNavbar.links.map(({ title, href }, index) => (
           <motion.a
             key={index}
-            className="btn btn-ghost w-full"
+            className="btn btn-ghost w-full text-lg py-4" // Larger font and padding for open menu
             href={href}
             variants={{
               show: { x: 0 },
@@ -114,14 +111,14 @@ function Navbar() {
           {googlePlayLink && (
             <li className="mb-2">
               <a href={googlePlayLink} target="_blank">
-                <img className="h-12" src="/stores/google-play.svg" />
+                <img className="h-14" src="/stores/google-play.svg" />
               </a>
             </li>
           )}
           {appStoreLink && (
             <li className="mb-2">
               <a href={appStoreLink} target="_blank">
-                <img className="h-12" src="/stores/app-store.svg" />
+                <img className="h-14" src="/stores/app-store.svg" />
               </a>
             </li>
           )}
