@@ -50,9 +50,9 @@ const templateConfig: TemplateConfig = {
     subtitle:
       "Match with students who share your lifestyle. Connect safely with verified college students and find your ideal living Partners.",
     screenshots: [
-      "/screenshots/1.webp",
-      "/screenshots/2.webp",
-      "/screenshots/3.webp",
+      "/screenshots/1.jpg",
+      "/screenshots/2.jpg",
+      "/screenshots/3.jpg",
     ],
   },
   home: {
@@ -206,9 +206,9 @@ const templateConfig: TemplateConfig = {
       subtitle:
         "Match with students who share your lifestyle. Our smart algorithm connects you with compatible roommates based on your habits, preferences, and schedule.",
       screenshots: [
-        "/screenshots/1.webp",
-        "/screenshots/2.webp",
-        "/screenshots/3.webp",
+        "/screenshots/3.jpg",
+        "/screenshots/2.jpg",
+        "/screenshots/1.jpg",
       ],
       rewards: ["Most Secure \nRoommate Finder App", "#1 College \nHousing App"],
       usersDescription: "1,000+ students already matched",

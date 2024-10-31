@@ -99,7 +99,7 @@ function AppBanner() {
                     rotate: 0,
                   },
                   visible: {
-                    scale: index > 0 ? 0.9 : 1,
+                    scale: index > 0 ? 0.8 : .9,
                     opacity: 1,
                     rotate: index === 0 ? 0 : index === 1 ? "-30deg" : "30deg",
                   },
