@@ -12,10 +12,10 @@ function Partners() {
 
   return (
     <section id={partners.id} className="relative p-4">
-      <div className="absolute left-0 right-0 top-0 bottom-0 bg-neutral -z-10" />
-      <div className="max-w-screen-lg mx-auto mb-12 flex flex-col items-center">
-        <h2 className="text-neutral-content text-4xl my-4 font-bold">
-          <AnimatedText text={partners.title} />
+    <div className="absolute left-0 right-0 top-0 bottom-0 bg-neutral -z-10" />
+    <div className="max-w-screen-lg mx-auto mb-12 flex flex-col items-center">
+      <h2 className="text-neutral-content text-4xl my-4 font-bold text-center">
+        <AnimatedText text={partners.title} />
         </h2>
         <motion.div
           initial="hidden"

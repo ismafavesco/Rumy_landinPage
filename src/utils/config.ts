@@ -105,7 +105,7 @@ const templateConfig: TemplateConfig = {
       id: "how-it-works",
       title: "How Rumy Works",
       subtitle:
-        "Find your perfect roommate in three simple steps",
+        "",
       steps: [
         {
           title: "Create Your Profile",
