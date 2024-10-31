@@ -7,6 +7,7 @@ function Partners() {
   const {
     home: { partners },
   } = useContext(ConfigContext)!;
+
   if (!partners) return null;
 
   return (
@@ -20,20 +21,24 @@ function Partners() {
           initial="hidden"
           whileInView="visible"
           viewport={{ amount: 1, once: true, margin: "0px 0px -100px 0px" }}
-          className="mt-4 w-full grid gap-8 grid-cols-[repeat(auto-fit,minmax(100px,1fr))] justify-items-center md:gap-8"
+          className="mt-4 w-full grid gap-8 grid-cols-[repeat(auto-fit,minmax(150px,1fr))] justify-items-center md:gap-12"
         >
           {partners.logos.map((logo, index) => (
-            <motion.img
+            <motion.div
               key={index}
-              src={logo}
-              alt="partner logo"
-              variants={{
-                hidden: { y: "-80%", opacity: 0 },
-                visible: { y: "0%", opacity: 1 },
-              }}
-              transition={{ delay: 0.25 + index * 0.25 }}
-              className="w-20 h-20"
-            />
+              className="w-40 h-24 relative" // Fixed aspect ratio container
+            >
+              <motion.img
+                src={logo}
+                alt="university logo"
+                variants={{
+                  hidden: { y: "-80%", opacity: 0 },
+                  visible: { y: "0%", opacity: 1 },
+                }}
+                transition={{ delay: 0.25 + index * 0.25 }}
+                className="w-full h-full object-contain" // Will maintain aspect ratio within container
+              />
+            </motion.div>
           ))}
         </motion.div>
       </div>

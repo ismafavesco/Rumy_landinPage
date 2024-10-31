@@ -66,24 +66,24 @@ const templateConfig: TemplateConfig = {
       subtitle: "Hear from students who found their perfect match",
       cards: [
         {
-          name: "Alice Johnson",
+          name: "Marcus Johnson",
           comment:
-            "Rumy made finding a compatible roommate so easy! The matching system really works - my roommate and I have similar study habits and sleeping schedules, which makes living together great.",
+            "Rumy made finding a compatible roommate so easy! The matching system really works - my roommate and I have similar study habits and sleeping schedules.",
         },
         {
-          name: "Bob Smith",
+          name: "Aiden Thompson",
           comment:
-            "As a transfer student, I was worried about finding a roommate mid-semester. Rumy's verification system made me feel safe, and I found someone perfect for my apartment within a week!",
+            "As a transfer student, I was worried about finding a roommate mid-semester. Rumy's verification system made me feel safe.",
         },
         {
-          name: "Charlie Brown",
+          name: "Sofia Patel",
           comment:
-            "The lifestyle matching on Rumy is spot-on! My roommate and I both are clean, quiet during study hours, and enjoy occasional movie nights. Couldn't have found a better match.",
+            "The lifestyle matching on Rumy is spot-on! My roommate and I both are clean, quiet during study hours, and enjoy occasional movie nights. ",
         },
         {
           name: "Dana White",
           comment:
-            "I love how Rumy lets you match based on specific preferences. Found a roommate who shares my studying schedule and cleaning habits. Makes dorm life so much better!",
+            "I love how Rumy lets you match based on specific preferences. Found a roommate who shares my studying schedule and cleaning habits.",
         },
         {
           name: "Eve Adams",
@@ -95,10 +95,10 @@ const templateConfig: TemplateConfig = {
     partners: {
       title: "Trusted by Leading Universities",
       logos: [
-        "/misc/companies/apple.svg",
-        "/misc/companies/aws.svg",
-        "/misc/companies/google.svg",
-        "/misc/companies/tumblr.svg",
+        "/misc/universities/asu.png",
+        "/misc/universities/uoa.png",
+        "/misc/universities/usc.png",
+        "/misc/universities/penn.png",
       ],
     },
     howItWorks: {
@@ -210,14 +210,14 @@ const templateConfig: TemplateConfig = {
         "/screenshots/2.webp",
         "/screenshots/3.webp",
       ],
-      rewards: ["Most Trusted \nRoommate App", "#1 College \nHousing App"],
+      rewards: ["Most Secure \nRoommate Finder App", "#1 College \nHousing App"],
       usersDescription: "1,000+ students already matched",
       headlineMark: [1, 3],
     },
 
 
     pricing: {
-  id: "housing-marketplace",
+  id: "pricing",
   title: "Connect Students with Perfect Housing",
   subtitle: "The easiest way to list and lease properties to verified students",
   actionText: "Get Started",
