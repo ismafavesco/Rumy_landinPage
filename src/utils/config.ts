@@ -117,7 +117,7 @@ const templateConfig: TemplateConfig = {
           title: "Get Verified",
           subtitle:
             "Complete our student verification process to ensure a safe and trusted community.",
-          image: "/stock/02.webp",
+          image: "/3D/sheild-front-color.webp",
         },
         {
           title: "Start Swiping",
@@ -135,7 +135,7 @@ const templateConfig: TemplateConfig = {
           title: "Find Your Match",
           subtitle:
             "Connect with your perfect roommate and start planning your shared living experience.",
-          image: "/stock/05.webp",
+          image: "/stock/07.jpg",
         },
       ],
     },
@@ -149,19 +149,19 @@ const templateConfig: TemplateConfig = {
           title: "Smart Matching",
           subtitle:
             "Our algorithm pairs you with compatible roommates based on lifestyle, study habits, and personal preferences",
-          icon: "/3D/link-front-color.webp",
+          icon: "/3D/chess-front-color.webp",
         },
         {
           title: "Student Verification",
           subtitle:
             "All users are verified college students, ensuring a safe and trustworthy community",
-          icon: "/3D/clock-front-color.webp",
+          icon: "/3D/medal-front-color.webp",
         },
         {
           title: "Secure Chat",
           subtitle:
             "Connect with potential roommates through our safe, in-app messaging system",
-          icon: "/3D/sheild-front-color.webp",
+          icon: "/3D/lock-front-color.webp",
         },
         {
           title: "Preference Matching",
