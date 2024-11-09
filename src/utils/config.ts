@@ -4,10 +4,10 @@ const templateConfig: TemplateConfig = {
   name: "Rumy",
   seo: {
     title: "Rumy",
-    description: "Smart Roommate Finder for College Students",
+    description: "Roommate Finder App for College Students",
   },
   backgroundGrid: false,
-  logo: "/logo.svg",
+  logo: "/logos/Rumy_LogoMark_Green.png",
   theme: "corporate",
   forceTheme: false,
   showThemeSwitch: true,
