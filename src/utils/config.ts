@@ -178,7 +178,7 @@ const templateConfig: TemplateConfig = {
         {
           question: "How does Rumy verify students?",
           answer:
-            "We verify all users through their college email addresses and student ID verification process. This helps ensure a safe and trusted community of genuine college students.",
+            "We verify all users through their college email addresses and student verification process. This helps ensure a safe and trusted community of genuine college students.",
         },
         {
           question: "If I'm transferring to another university can I use it for that area?",

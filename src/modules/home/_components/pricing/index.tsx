@@ -100,7 +100,7 @@ function Pricing() {
                       href="/app"
                       className="btn btn-primary btn-square no-animation rounded-none w-full text-lg h-auto py-4"
                     >
-                      {pricing.actionText}
+                      {index === 0 ? pricing.actionText : "Contact Us"}
                     </a>
                   </div>
                 )}
