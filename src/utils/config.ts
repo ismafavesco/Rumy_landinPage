@@ -258,136 +258,306 @@ const templateConfig: TemplateConfig = {
   },
 
 
-  privacyPolicy: {
-    seo: {
-      title: "Privacy Policy - Rumy",
-      description: "Privacy Policy for Rumy Roommate Finding App",
+    privacyPolicy: {
+      seo: {
+        title: "Privacy Policy - Rumy",
+        description: "Privacy Policy for Rumy Roommate Finding App",
+      },
+      content: `# Privacy Policy
+  
+  **Effective Date:** january 31, 2025
+  
+  ## Introduction
+  
+  Welcome to Rumy ("App", "we", "our", or "us"). Your privacy is fundamental to our service. This Privacy Policy explains how we collect, use, store, protect, and share your personal information when you use our roommate-matching platform.
+  
+  ## Information We Collect
+  
+  ### 1. Information You Provide
+  
+  #### Account Information
+  We collect basic information necessary to create and verify your account, including:
+  - Full name
+  - College/university email address
+  - Date of birth
+  - Student ID number
+  - Password (encrypted)
+  - Phone number for verification
+  
+  #### Profile Information
+  To facilitate better matching, we collect information about your:
+  - Lifestyle preferences and habits
+  - Study schedules and patterns
+  - Sleep schedule and routines
+  - Cleanliness preferences
+  - Social habits and preferences
+  - Hobbies and interests
+  - Major/field of study
+  - Expected graduation date
+  - Budget range for housing
+  - Pet preferences
+  - Smoking preferences
+  - Guest policy preferences
+  
+  #### Verification Data
+  To ensure platform safety, we verify:
+  - Student enrollment status
+  - College/university identification
+  - Government-issued ID (for verification only)
+  - Profile photo
+  
+  #### Communication Data
+  We maintain records of:
+  - In-app messages and chat history
+  - Reported issues or concerns
+  - Support ticket communications
+  - Feedback and ratings
+  - Saved or blocked user lists
+  
+  ### 2. Information We Collect Automatically
+  
+  #### Usage Data
+  We collect data about how you use our platform:
+  - App access times and duration
+  - Feature interaction patterns
+  - Matching preferences and history
+  - Search criteria and filters used
+  - Profile view history
+  - Message response times
+  - Match acceptance/rejection patterns
+  
+  #### Device Information
+  For security and functionality, we collect:
+  - Device type and model
+  - Operating system and version
+  - IP address
+  - Browser type (if applicable)
+  - Mobile carrier information
+  - Device identifiers
+  - App version being used
+  
+  #### Location Data
+  With your consent, we collect:
+  - General location (city/campus level)
+  - Time zone
+  - Campus proximity data
+  - Housing area preferences
+  
+  ## How We Use Your Information
+  
+  We use your information to:
+  - Provide and improve roommate matching services
+  - Verify student status and identity
+  - Process and manage user communications
+  - Maintain user profiles and preferences
+  - Generate and manage matches
+  - Provide customer support
+  - Ensure platform safety and security
+  - Analyze user behavior to improve our service
+  - Prevent fraudulent activities
+  - Conduct research and analytics
+  - Test and develop new features
+  
+  ## Security Measures
+  
+  We implement robust security measures including:
+  - End-to-end encryption for messages
+  - Secure data storage systems
+  - Regular security audits
+  - Employee access controls
+  - Incident response procedures
+  - Backup and recovery systems
+  - Student verification systems
+  
+  ## Your Rights
+  
+  You have the right to:
+  - Access and view your personal information
+  - Update your profile data
+  - Control privacy settings
+  - Manage notification preferences
+  - Block other users
+  - Request data deletion
+  - Export your data
+  - Opt-out of communications
+  - Delete your account
+  
+  ## Updates to Privacy Policy
+  
+  We may update this Privacy Policy from time to time. We will notify you of any significant changes and obtain consent where required by law.
+  
+  ## Contact Information
+  
+  Support Team: support@favesco.tech
+  `
     },
-    content: `# Privacy Policy
-
-**Effective Date:** October 30, 2024
-
-## Introduction
-
-Welcome to Rumy (the "App"). This Privacy Policy explains how we collect, use, and protect your personal information when you use our roommate-matching platform.
-
-## Information We Collect
-
-### 1. Information You Provide
-- **Account Information:** Name, college email address, student ID (for verification)
-- **Profile Information:** Lifestyle preferences, study habits, sleep schedule
-- **Verification Data:** Student status verification
-- **Communication Content:** Messages and chat history
-
-### 2. Information We Collect Automatically
-- **Usage Data:** App interactions and matching preferences
-- **Device Information:** Device type, IP address, operating system
-- **Location Data:** General location for matching purposes (with consent)
-
-## How We Use Your Information
-
-- To provide roommate matching services
-- To verify student status
-- To ensure platform safety
-- To improve our matching algorithm
-- To communicate with users
-- To provide customer support
-
-## Security Measures
-
-- Student verification systems
-- Secure messaging platform
-- Data encryption
-- Regular security audits
-
-## Your Rights
-
-- Access and update your information
-- Control your privacy settings
-- Request data deletion
-- Opt-out of communications
-
-## Contact Us
-
-Email: privacy@rumyfinder.com
-Support: support@rumyfinder.com
-`,
-  },
-  cookiesPolicy: {
-    seo: {
-      title: "Cookies Policy - Rumy",
-      description: "Cookies Policy for Rumy Roommate Finding App",
+    cookiesPolicy: {
+      seo: {
+        title: "Cookies Policy - Rumy",
+        description: "Cookies Policy for Rumy Roommate Finding App",
+      },
+      content: `# Cookies Policy
+  
+  **Effective Date:** October 30, 2024
+  
+  ## Introduction
+  
+  Cookies are small text files stored on your device that help us provide and improve our services. This policy explains how Rumy uses cookies and similar technologies.
+  
+  ## Types of Cookies We Use
+  
+  ### Essential Cookies
+  These cookies are necessary for basic app functionality:
+  - User authentication and session management
+  - Security features and fraud prevention
+  - Error prevention and system stability
+  - Account verification processes
+  - Basic platform operations
+  
+  ### Functional Cookies
+  These cookies enhance your experience:
+  - Remember your preferences
+  - Customize your experience
+  - Save your settings
+  - Language preferences
+  - Theme settings
+  - Matching preferences
+  
+  ### Analytics Cookies
+  These cookies help us improve our service:
+  - Understanding user behavior
+  - Improving app performance
+  - Tracking feature usage
+  - Analyzing matching patterns
+  - Monitoring error rates
+  - Service optimization
+  
+  ### Performance Cookies
+  These cookies ensure optimal app performance:
+  - Load balancing
+  - Response time monitoring
+  - Error tracking
+  - Bandwidth optimization
+  - Cache management
+  - System stability
+  
+  ## How We Use Cookies
+  
+  We use cookies to:
+  - Enable core platform functionality
+  - Maintain your sessions securely
+  - Remember your preferences
+  - Enhance user experience
+  - Monitor platform performance
+  - Improve our services
+  - Ensure system security
+  - Prevent fraud
+  
+  ## Your Cookie Choices
+  
+  You can manage cookies through:
+  
+  ### In-App Controls
+  - Privacy settings
+  - Cookie preferences
+  - Feature opt-outs
+  - Tracking preferences
+  - Data collection settings
+  
+  ### Device Settings
+  - Browser cookie controls
+  - App permissions
+  - Storage management
+  - Cache clearing
+  - Privacy settings
+  
+  ## Updates to Cookie Policy
+  
+  We may update this Cookie Policy periodically. We will notify you of any significant changes through the app or email.
+  
+  ## Contact Information
+  
+  For questions about cookies:
+  
+  Support: support@favesco.tech`
     },
-    content: `# Cookies Policy
-
-**Effective Date:** October 30, 2024
-
-## What We Use Cookies For
-
-- User authentication
-- Matching preferences
-- Chat functionality
-- App performance
-- Security measures
-
-## Types of Cookies
-
-- Essential cookies for app functionality
-- Preference cookies for user settings
-- Analytics cookies for improvement
-- Security cookies for protection
-
-## Your Cookie Choices
-
-Manage cookies through:
-- App settings
-- Device settings
-- Browser settings
-
-## Contact Us
-
-Email: privacy@rumyfinder.com`,
-  },
-  termsAndConditions: {
-    seo: {
-      title: "Terms and Conditions - Rumy",
-      description: "Terms and Conditions for Rumy",
-    },
-    content: `# Terms and Conditions
-
-**Effective Date:** October 30, 2024
-
-## Eligibility
-
-- Must be 18 or older
-- Must be an enrolled college student
-- Must provide accurate information
-- Must maintain valid college email
-
-## User Conduct
-
-### Required:
-- Accurate profile information
-- Respectful communication
-- Report safety concerns
-
-### Prohibited:
-- False information
-- Harassment
-- Sharing private data
-
-## Safety Guidelines
-
-- Student verification required
-- In-app communication only
-- Report suspicious activity
-- Follow safety protocols
-
-## Contact Us
-
-Email: legal@rumyfinder.com
-Support: 1-800-RUMY-HELP`,
-  },
-};
+    termsAndConditions: {
+      seo: {
+        title: "Terms and Conditions - Rumy",
+        description: "Terms and Conditions for Rumy",
+      },
+      content: `# Terms and Conditions
+  
+  **Effective Date:** October 30, 2024
+  
+  ## Eligibility
+  
+  To use Rumy, you must:
+  - Be 18 years of age or older
+  - Be currently enrolled at an accredited college/university
+  - Provide and maintain accurate information
+  - Maintain a valid college email address
+  - Comply with all local laws and regulations
+  
+  ## User Conduct
+  
+  ### Required:
+  Users must:
+  - Maintain accurate and up-to-date profile information
+  - Engage in respectful communication
+  - Report any safety concerns or violations
+  - Use appropriate language and conduct
+  - Keep contact information current
+  - Follow platform guidelines
+  
+  ### Prohibited:
+  Users must not:
+  - Provide false or misleading information
+  - Engage in harassment or intimidation
+  - Share private user data
+  - Create multiple accounts
+  - Engage in commercial solicitation
+  - Display discriminatory behavior
+  - Impersonate others
+  - Share explicit content
+  - Attempt to circumvent security measures
+  
+  ## Safety Guidelines
+  
+  Users must follow these safety protocols:
+  - Complete student verification
+  - Use in-app communication only
+  - Report suspicious activity immediately
+  - Meet new contacts in public places
+  - Follow recommended safety procedures
+  - Enable two-factor authentication
+  - Keep login credentials secure
+  - Use campus safety resources when available
+  
+  ## Additional Terms
+  
+  ### Platform Updates
+  We reserve the right to:
+  - Modify the platform
+  - Update these terms
+  - Change service features
+  - Adjust user requirements
+  - Implement new safety measures
+  
+  ### Account Termination
+  We may terminate accounts that:
+  - Violate these terms
+  - Engage in prohibited activities
+  - Fail to maintain eligibility
+  - Threaten platform safety
+  - Provide false information
+  
+  ## Contact Us
+  
+  For assistance or to report issues:
+  Email: support@favesco.tech
+  `
+    }
+  };
 
 export default templateConfig;

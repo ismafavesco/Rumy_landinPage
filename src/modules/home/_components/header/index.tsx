@@ -22,23 +22,7 @@ function Header() {
       <div className="max-w-screen-lg mx-auto py-4 px-4 md:py-16">
         <div className="flex flex-col md:flex-row">
           <div className="flex flex-1 items-center md:items-start md:h-[300vh]">
-            <div className="static top-40 flex flex-col prose justify-center py-8 md:sticky md:h-[648px]">
-              <div className="flex flex-col gap-2 my-4 3xs:flex-row">
-                {header.rewards?.map((reward, index) => (
-                  <motion.div
-                    key={index}
-                    initial={{ opacity: 0, scale: 0 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    className="flex items-center self-center h-8 md:h-12"
-                  >
-                    <img src="/misc/wreath-left.webp" className="h-full" />
-                    <p className="text-xs text-gray-500 whitespace-pre text-center">
-                      {reward}
-                    </p>
-                    <img src="/misc/wreath-right.webp" className="h-full" />
-                  </motion.div>
-                ))}
-              </div>
+            <div className="static top-0 flex flex-col prose justify-center py-8 md:sticky md:h-[648px]">
               <motion.h2
                 initial={{ opacity: 0, rotateZ: -10 }}
                 animate={{ opacity: 1, rotateZ: 0 }}
